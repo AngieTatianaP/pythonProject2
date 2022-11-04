@@ -1,5 +1,5 @@
 from tkinter import *
-from tkinter import messagebox
+
 
 import sensors
 
@@ -86,6 +86,6 @@ screen = Tk()
 screen.title("TallerDistribuidos")
 screen.resizable(True, True)
 root = PyProject(screen).grid()
-screen.config(cursor="pencil")
+screen.config(cursor="circle")
 screen.mainloop()
 client.loop_forever()
